@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int x =1000; 
+    int y = 160;
+    {
+        if (x<2000 || x>3000)
+        printf("x=%d",x);
+    }
+    {
+        if(y>100 && y<150)
+        printf("\ny=%d",y);
+    }
+    return 0;
+}
